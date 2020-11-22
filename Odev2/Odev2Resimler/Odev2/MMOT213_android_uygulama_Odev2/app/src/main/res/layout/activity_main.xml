@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tutu"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="AD:"
+        android:textColor="@color/colorGreen"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="10dp"
+        android:text="SOYAD:"
+        android:textColor="@color/colorGreen"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt2"
+        android:text="YAŞ:"
+        android:textColor="@color/colorGreen"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt3"
+        android:layout_marginTop="10dp"
+        android:text="LİSE:"
+        android:textColor="@color/colorGreen"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt4"
+        android:text="MEMLEKET:"
+        android:textColor="@color/colorGreen"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="BATUHAN"
+        android:textColor="@color/colorRed"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt6"
+        android:text="ÜNVER"
+        android:textColor="@color/colorRed"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt7"
+        android:text="24"
+        android:textColor="@color/colorRed"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt8"
+        android:text="ISTANBUL ANADOLU LISESI"
+        android:textColor="@color/colorRed"
+        android:textSize="18dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt9"
+        android:text="SAKARYA"
+        android:textColor="@color/colorRed"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt10"
+        android:layout_marginTop="30dp"
+        android:text="IS DENEYIMI"
+        android:textSize="30dp"
+        android:textColor="@color/colorRed"
+        android:textAlignment="center"/>
+
+   <TextView
+       android:id="@+id/txt12"
+       android:layout_width="400dp"
+       android:layout_height="250dp"
+       android:layout_below="@id/txt11"
+       android:layout_centerHorizontal="true"
+       android:text="2012-2015\nSiber Güvenlik Görevlisi\n2015-2017\nVeri Yöneticisi\n2017-2019\nBaş Teknoloji Yöneticisi"
+       android:textSize="30dp"
+       android:textColor="@color/colorGreen"
+       android:layout_marginTop="20dp"/>
+
+    <Button
+        android:background="@drawable/ig"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt12"
+        android:layout_marginTop="-10dp"
+        android:onClick="btn1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
