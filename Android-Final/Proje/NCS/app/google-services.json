@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690314312042",
+    "project_id": "ncs-app-4346e",
+    "storage_bucket": "ncs-app-4346e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690314312042:android:f4cd60ddce61c1facc4d13",
+        "android_client_info": {
+          "package_name": "com.example.ncs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690314312042-4qlt6e3cngs4adbd7j45lng188ulbit3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlMjcJYPagKP5ZH03jNZ0Bm4S7AIEMJ3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690314312042-4qlt6e3cngs4adbd7j45lng188ulbit3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

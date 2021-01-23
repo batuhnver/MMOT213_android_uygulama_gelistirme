@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/darkBlue"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ncsa"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signInBtn"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/progressBarTxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/progress1"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="E-Posta Adresi"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/imageView"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Şifre"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/mail"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Giriş Yap"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/password"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/forgotPw"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Şifrenizi Sıfırlayın.!"
+        android:layout_below="@id/progress1"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="-15dp"
+        android:textSize="15dp"
+        />
+
+
+</RelativeLayout>
